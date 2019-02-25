@@ -1,0 +1,23 @@
+<template>
+    <div id="test">{{msg}}</div>
+</template>
+
+<script>
+    export default {
+        name: 'test',
+        components: {},
+        data() {
+            return {
+                msg: 'test'
+            }
+        },
+        mounted() {
+        },
+        methods: {}
+    }
+</script>
+
+<style scoped lang="scss">
+    #test {
+    }
+</style>

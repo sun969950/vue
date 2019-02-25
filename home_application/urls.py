@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+from django.conf.urls import patterns
+
+from home_application.host_manage import host_urls
+from home_application.user_manage import user_urls
+
+urlpatterns = patterns(
+    'home_application.views',
+    (r'^$', 'home'),
+    (r'^login_info$', 'login_info'),
+)
+
+urlpatterns += user_urls.urlpatterns
+urlpatterns += host_urls.urlpatterns
