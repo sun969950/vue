@@ -80,7 +80,8 @@
         <counts>
           <entry key="html" value="6" />
           <entry key="js" value="10" />
-          <entry key="py" value="36" />
+          <entry key="json" value="1" />
+          <entry key="py" value="38" />
           <entry key="svg" value="1" />
           <entry key="vue" value="7" />
         </counts>
@@ -88,8 +89,9 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="6" />
+          <entry key="JSON" value="1" />
           <entry key="JavaScript" value="10" />
-          <entry key="Python" value="36" />
+          <entry key="Python" value="38" />
           <entry key="SVG" value="1" />
           <entry key="Vue.js" value="7" />
         </counts>
@@ -98,14 +100,14 @@
         <counts>
           <entry key="Django Console" value="174" />
           <entry key="js" value="55" />
-          <entry key="py" value="3693" />
+          <entry key="py" value="3699" />
           <entry key="vue" value="195" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JavaScript" value="55" />
-          <entry key="Python" value="3867" />
+          <entry key="Python" value="3873" />
           <entry key="Vue.js" value="195" />
         </counts>
       </usages-collector>
@@ -123,15 +125,33 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home_application/host_manage/host_views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="64" column="33" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
+            <state relative-caret-position="301">
+              <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
               <folding>
                 <element signature="e#24#55#0" expanded="true" />
                 <marker date="1548147165466" expanded="true" signature="3254:3255" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/default.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/conf/settings_testing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -239,7 +259,6 @@
         <option value="$PROJECT_DIR$/templates/index.prod.html" />
         <option value="$PROJECT_DIR$/templates/home_application/index.html" />
         <option value="$PROJECT_DIR$/templates/home_application/config/index.js" />
-        <option value="$PROJECT_DIR$/conf/default.py" />
         <option value="$PROJECT_DIR$/templates/home_application/src/views/test.vue" />
         <option value="$PROJECT_DIR$/templates/home_application/src/router/index.js" />
         <option value="$PROJECT_DIR$/templates/home_application/src/main.js" />
@@ -257,6 +276,8 @@
         <option value="$PROJECT_DIR$/home_application/celery_tasks.py" />
         <option value="$PROJECT_DIR$/home_application/host_manage/host_views.py" />
         <option value="$PROJECT_DIR$/home_application/tests.py" />
+        <option value="$PROJECT_DIR$/conf/default.py" />
+        <option value="$PROJECT_DIR$/conf/settings_testing.py" />
       </list>
     </option>
   </component>
@@ -280,8 +301,9 @@
       <path value="$PROJECT_DIR$/templates/home_application/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="7" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1364" />
     <option name="height" value="672" />
   </component>
@@ -297,6 +319,11 @@
             <path>
               <item name="cw-vue-top" type="b2602c69:ProjectViewProjectNode" />
               <item name="cw-vue-top" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cw-vue-top" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cw-vue-top" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cw-vue-top" type="b2602c69:ProjectViewProjectNode" />
@@ -537,10 +564,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="7" y="0" width="1364" height="672" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21625766" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21331316" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -552,7 +579,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32909605" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.15241636" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.13442624" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.3293919" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.23934427" />
@@ -581,16 +608,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/uam/decorators.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uam/client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1400">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/js/app.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -822,13 +839,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/default.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home_application/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -887,14 +897,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/conf/env_conf.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/home_application/host_manage/host_views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="64" column="33" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
+        <state relative-caret-position="301">
+          <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
           <folding>
             <element signature="e#24#55#0" expanded="true" />
             <marker date="1548147165466" expanded="true" signature="3254:3255" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/default.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/settings_testing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
         </state>
       </provider>
     </entry>

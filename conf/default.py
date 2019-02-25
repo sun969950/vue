@@ -21,8 +21,8 @@ from django.conf.global_settings import *  # noqa
 # 应用基本信息配置 (请按照说明修改)
 # ==============================================================================
 # 在蓝鲸智云开发者中心 -> 点击应用ID -> 基本信息 中获取 APP_ID 和 APP_TOKEN 的值
-APP_ID = 'cw-vue-top'
-APP_TOKEN = '80d3d2cf-7239-4bda-bd99-8c952d440151'
+APP_ID = 'cw-vue-top-gdj'
+APP_TOKEN = '55e12233-aaea-427a-937d-1433b4a1ce56'
 # 蓝鲸智云开发者中心的域名，形如：http://paas.bking.com
 BK_PAAS_HOST = 'http://paas.gzbk.com'
 BK_PAAS_INNER_HOST = os.environ.get('BK_PAAS_INNER_HOST', BK_PAAS_HOST)
