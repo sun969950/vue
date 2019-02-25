@@ -5,7 +5,7 @@ import random
 import string
 import time
 
-import paramiko
+# import paramiko
 import requests
 
 from common.log import logger
