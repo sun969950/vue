@@ -271,8 +271,10 @@ def search_business():    #查询蓝鲸平台所有业务
             return res
         else:
             res = {"result": False, "data": content}
+            return res
     except Exception as e:
         logger.error(e)
+        return e
 def random_passwd():
 
     src = string.ascii_letters + string.digits

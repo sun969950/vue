@@ -102,7 +102,7 @@
         <counts>
           <entry key="Django Console" value="174" />
           <entry key="js" value="55" />
-          <entry key="py" value="3746" />
+          <entry key="py" value="3748" />
           <entry key="txt" value="1" />
           <entry key="vue" value="195" />
         </counts>
@@ -111,7 +111,7 @@
         <counts>
           <entry key="JavaScript" value="55" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="3920" />
+          <entry key="Python" value="3922" />
           <entry key="Vue.js" value="195" />
         </counts>
       </usages-collector>
@@ -120,11 +120,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home_application/host_manage/host_views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="84">
+              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
               <folding>
                 <element signature="e#24#55#0" expanded="true" />
                 <marker date="1551095435937" expanded="true" signature="3316:3317" ph="..." />
@@ -163,11 +163,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home_application/fast_execute_script.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="275" column="20" lean-forward="true" selection-start-line="275" selection-start-column="20" selection-end-line="275" selection-end-column="20" />
+            <state relative-caret-position="150">
+              <caret line="276" column="16" lean-forward="true" selection-start-line="276" selection-start-column="16" selection-end-line="276" selection-end-column="16" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
@@ -275,8 +275,8 @@
         <option value="$PROJECT_DIR$/conf/default.py" />
         <option value="$PROJECT_DIR$/conf/settings_testing.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/home_application/fast_execute_script.py" />
         <option value="$PROJECT_DIR$/home_application/host_manage/host_views.py" />
+        <option value="$PROJECT_DIR$/home_application/fast_execute_script.py" />
       </list>
     </option>
   </component>
@@ -911,16 +911,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home_application/fast_execute_script.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="275" column="20" lean-forward="true" selection-start-line="275" selection-start-column="20" selection-end-line="275" selection-end-column="20" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
@@ -937,11 +927,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home_application/host_manage/host_views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="84">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
           <folding>
             <element signature="e#24#55#0" expanded="true" />
             <marker date="1551095435937" expanded="true" signature="3316:3317" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home_application/fast_execute_script.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="276" column="16" lean-forward="true" selection-start-line="276" selection-start-column="16" selection-end-line="276" selection-end-column="16" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
