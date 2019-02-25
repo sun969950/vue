@@ -26,6 +26,7 @@ def search_biz(request):
     try:
 
         data = search_business()
+        logger.error("ssssssssssssssssssssssssssss%s" % data)
         # return render_json({'result': True, 'data': [{'name': 'wen','id': 5}]})  参数详情
         return render_json({'result': True, 'data': data["data"]})
     except Exception as e:
